@@ -1,25 +1,30 @@
 body{
     text-align: center;
 }
+
 .body{
     max-width: 500px;
     padding: 50px 100px;
 }
+
 .Login{
     color:#3D3D3D;
     font-size: 20px;
     line-height: 80%;
 }
+
 .Register{
     color:#46A358;
     font-size: 20px;
     line-height: 80%;
 }
+
 .Enter_email{
     margin-bottom: 30px;
     font-size: 13px
 }
-#Username{
+
+.form_style{
     margin-bottom: 16px;
     padding-left: 14px;
     border: 1px solid #eaeaea;
@@ -27,30 +32,7 @@ body{
     width: 300px;
     height: 40px;
 }
-#email{
-    margin-bottom: 16px;
-    padding-left: 14px;
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-}
-#Password{
-    margin-bottom: 16px;
-    padding-left: 14px;
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-}
-#Comfirm{
-    margin-bottom: 41px;
-    padding-left: 14px;
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width: 300px;
-    height: 40px;
-}
+
 .Button{
     margin-bottom: 36px;
     background: #46a358;
@@ -62,6 +44,7 @@ body{
     line-height: 100%;
     color: #fff;
 }
+
 .Or_register_with{
     margin-bottom: 27px;
     font-weight: 400;
@@ -70,7 +53,8 @@ body{
     color: #3d3d3d;
     text-align: center;
 }
-a{
+
+.link_style{
     display:block; margin-bottom: 20px;
     padding: 10px 68px 10px 64px;
     font-weight: 500;
