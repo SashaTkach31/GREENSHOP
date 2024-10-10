@@ -127,6 +127,11 @@ header nav li:after{
 header nav li:hover:after{
     width: 100%;
 }
+main section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 main h4{
     font-family: "Cera Pro", sans-serif;
     font-weight: 500;
@@ -138,13 +143,6 @@ main h4{
     margin-top: 68px;
     margin-left: 43px;
 }
-main .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 557px;
-    gap: 93px;
-}
 .better_planet{
     font-family: "Cera Pro", sans-serif;
     font-weight: 900;
@@ -152,7 +150,6 @@ main .container{
     line-height: 100%;
     text-transform: uppercase;
     color: #3d3d3d;
-    margin-right: 123px ;
     margin-top: 7px;
     margin-left: 40px;
 }
@@ -176,10 +173,11 @@ main p{
     padding: 10px 27px;
     margin-top: 44px;
     margin-left: 41px;
-    display: flex;
-    align-items: center;
+    display: inline-block;
 }
-main section img{
-    display: flex;
-    align-items: center;
+main img{
+    margin-right: 111px;
+}
+.better_planet span{
+    color: #46a358;
 }
