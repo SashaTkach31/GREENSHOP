@@ -106,6 +106,7 @@ header .login{
     background: #46a358;
     display: flex;
     align-items: center;
+    margin-bottom: 18px;
 }
 header .login:before{
     content: "";
@@ -127,12 +128,20 @@ header nav li:after{
 header nav li:hover:after{
     width: 100%;
 }
-main section{
+.banner{
+    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    gap: 53px;
 }
-main h4{
+.article_banner{
+    padding-top: 68px;
+    padding-left: 43px;
+    width: 700px;
+}
+.welcome_to_greenshop{
     font-family: "Cera Pro", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -140,8 +149,7 @@ main h4{
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #3d3d3d;
-    margin-top: 68px;
-    margin-left: 43px;
+    margin-bottom: 7px;
 }
 .better_planet{
     font-family: "Cera Pro", sans-serif;
@@ -150,19 +158,17 @@ main h4{
     line-height: 100%;
     text-transform: uppercase;
     color: #3d3d3d;
-    margin-top: 7px;
-    margin-left: 40px;
+    margin-bottom: 5px;
 }
-main p{
+.text_banner{
     font-family: "Cera Pro", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
     color: #727272;
-    margin-top: 5px;
-    margin-left: 43px;
+    margin-bottom: 43px;
 }
-.shop{
+.link_shop_now{
     font-family: "Cera Pro", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -171,12 +177,7 @@ main p{
     border-radius: 6px;
     background: #46a358;
     padding: 10px 27px;
-    margin-top: 44px;
-    margin-left: 41px;
     display: inline-block;
-}
-main img{
-    margin-right: 111px;
 }
 .better_planet span{
     color: #46a358;
