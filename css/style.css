@@ -182,3 +182,125 @@ header nav li:hover:after{
 .better_planet span{
     color: #46a358;
 }
+.product .container{
+    display: flex;
+    justify-content: space-between;
+}
+.product .left_side{
+    max-width: 310px;
+    background: #fbfbfb;
+    margin-top: 6px;
+}
+.product .left_side ul{
+    margin-top: 14px;
+    margin-left: 12px;
+}
+.container .left_side h4{
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+.container .left_side li a{
+    font-family:"Cera Pro", sans-serif;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 15px;
+    line-height: 267%;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+.container .left_side li a:hover{
+    content: "";
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    color: #46a358;
+    transition: 0.4s;
+}
+.container .left_side img{
+    margin-top: 377px;
+}
+.product .right_side{
+    max-width: 840px;
+    width: 100%;
+}
+.product .product_sort{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 31px;
+}
+.product .product_sort ul{
+    display: flex;
+    gap: 40px;
+}
+.product .product_sort ul a{
+    display: block;
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    text-decoration: none;
+    transition: color 0.4s, font-weight 0.4s;
+}
+.product .product_sort ul a:hover {
+    content: "";
+    font-weight: 700;
+    color: #46a358;}
+
+.product .product_sort ul li:after{
+    display: block;
+    height: 3px;
+    background-color: #46A358;
+    width: 0;
+    content: "";
+    margin-bottom: 7px;
+    transition: 0.4s;
+}
+.product .product_sort ul li:hover:after{
+    width: 100%;
+}
+.product .short_by{
+    font-family:"Cera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    display: flex;
+    align-items: center;
+}
+.product .short_by:after{
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/Arrow.svg");
+    margin-left: 5px;
+}
+.main_product_item article{
+    max-width: 250px;
+}
+.main_product_item{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 1190px;
+    align-items: flex-end;
+}
+.article_tittle{
+    font-family: "Cera Pro", sans-serif;;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;
+    margin-bottom: 6px;
+}
+.article_price{
+    font-family: "Cera Pro", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;
+}
