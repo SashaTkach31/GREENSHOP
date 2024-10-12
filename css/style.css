@@ -76,6 +76,9 @@ header .logo{
 .container{
     max-width: 1200px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header .container{
     display: flex;
@@ -130,11 +133,7 @@ header nav li:hover:after{
 }
 .banner{
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    gap: 53px;
+
 }
 .article_banner{
     padding-top: 68px;
@@ -178,6 +177,7 @@ header nav li:hover:after{
     background: #46a358;
     padding: 10px 27px;
     display: inline-block;
+    margin-bottom: 125px;
 }
 .better_planet span{
     color: #46a358;
@@ -185,13 +185,15 @@ header nav li:hover:after{
 .product .container{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 .product .left_side{
     max-width: 310px;
     background: #fbfbfb;
-    margin-top: 6px;
 }
-.product .left_side ul{
+.product .left_side ul a{
+    display: flex;
+    justify-content:space-between;
     margin-top: 14px;
     margin-left: 12px;
 }
@@ -201,6 +203,7 @@ header nav li:hover:after{
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
+
 }
 .container .left_side li a{
     font-family:"Cera Pro", sans-serif;
@@ -281,12 +284,12 @@ header nav li:hover:after{
 }
 .main_product_item article{
     max-width: 250px;
+    margin-bottom: 100px;
 }
 .main_product_item{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 1190px;
     align-items: flex-end;
 }
 .article_tittle{
