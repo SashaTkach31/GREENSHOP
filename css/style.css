@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'cera_proregular';
+    src: url('../fonts/cerapro-regular-webfont.eot');
+    src: url('../fonts/cerapro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cerapro-regular-webfont.woff2') format('woff2'),
+    url('../fonts/cerapro-regular-webfont.woff') format('woff'),
+    url('../fonts/cerapro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/cerapro-regular-webfont.svg#cera_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'abeezeeitalic';
+    src: url('../fonts/abeezee-italic-webfont.eot');
+    src: url('../fonts/abeezee-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/abeezee-italic-webfont.woff2') format('woff2'),
+    url('../fonts/abeezee-italic-webfont.woff') format('woff'),
+    url('../fonts/abeezee-italic-webfont.ttf') format('truetype'),
+    url('../fonts/abeezee-italic-webfont.svg#abeezeeitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 *{
     padding: 0;
     margin: 0;
@@ -92,14 +114,14 @@ header nav ul {
     gap: 50px;
 }
 header nav a{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
 }
 header .login{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -138,10 +160,11 @@ header nav li:hover:after{
 .article_banner{
     padding-top: 68px;
     padding-left: 43px;
+    margin-bottom: 7px;
     width: 700px;
 }
 .welcome_to_greenshop{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -151,7 +174,7 @@ header nav li:hover:after{
     margin-bottom: 7px;
 }
 .better_planet{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 900;
     font-size: 70px;
     line-height: 100%;
@@ -160,7 +183,7 @@ header nav li:hover:after{
     margin-bottom: 5px;
 }
 .text_banner{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 171%;
@@ -168,7 +191,7 @@ header nav li:hover:after{
     margin-bottom: 43px;
 }
 .link_shop_now{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -186,6 +209,7 @@ header nav li:hover:after{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    padding-top: 50px;
 }
 .product .left_side{
     max-width: 310px;
@@ -206,7 +230,7 @@ header nav li:hover:after{
 
 }
 .container .left_side li a{
-    font-family:"Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     color: #3d3d3d;
     font-size: 15px;
@@ -221,6 +245,9 @@ header nav li:hover:after{
     line-height: 267%;
     color: #46a358;
     transition: 0.4s;
+}
+.container .left_side li a:active{
+    color: #46A358;
 }
 .container .left_side img{
     margin-top: 377px;
@@ -240,7 +267,7 @@ header nav li:hover:after{
 }
 .product .product_sort ul a{
     display: block;
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 107%;
@@ -266,7 +293,7 @@ header nav li:hover:after{
     width: 100%;
 }
 .product .short_by{
-    font-family:"Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 107%;
@@ -293,7 +320,7 @@ header nav li:hover:after{
     align-items: flex-end;
 }
 .article_tittle{
-    font-family: "Cera Pro", sans-serif;;
+    font-family: 'cera_proregular', sans-serif;;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -301,9 +328,177 @@ header nav li:hover:after{
     margin-bottom: 6px;
 }
 .article_price{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
+}
+.number_list{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-bottom: 124px;
+}
+.number_list li a{
+    font-family: 'cera_proregular', sans-serif;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    padding: 10px 13px 9px 14px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+}
+.number_list li a:hover{
+    background: #46a358;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+}
+.number_list li:last-of-type a:before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/Arrow_pages_black.svg");
+}
+.number_list li:last-of-type:hover a:before{
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/Arrow_white.svg");
+    align-items: center;
+}
+.info .container{
+    margin-bottom: 138px;
+}
+.summer_cactus, .styling{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+}
+.summer_cactus h3, .styling h3 {
+    font-family: "abeezeeitalic", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    padding-top: 50px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.summer_cactus p, .styling p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    margin-bottom: 30px;
+}
+.info div a{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #46a358;
+    padding: 13px 27px;
+    align-items: center;
+}
+.info div a:after{
+    content:"";
+    display: inline-flex;
+    width: 20px;
+    height: 14px;
+    background-image: url("../img/Arrow_Right.svg");
+    margin-left: 6px;
+}
+
+.blog_posts h2{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    margin-bottom: 15px;
+}
+.blog_posts p{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 35px;
+}
+.blog_posts_element{
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+}
+.blog_posts_element article{
+    max-width: 268px;
+}
+.blog_posts_element .date{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    margin-bottom: 4px;
+}
+.blog_posts_element h4{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    text-align: left;
+    margin-bottom: 4px;
+}
+.blog_posts_element p {
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    text-align: left;
+    margin-bottom: 9px;
+}
+.blog_posts_element a{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    text-align: right;
+}
+.blog_posts_element a:after {
+    content: "";
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    color: #3d3d3d;
+    background-image: url("../img/Arrow_right_dark.svg");
+    margin-left: 6px;
+    align-items: center;
+}
+.blog_posts_element a:hover{
+    color: #46A358;
+    background-image: url("../img/Arrow_green.svg");
+    content: "";
+    text-align: center;
 }
