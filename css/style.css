@@ -378,13 +378,14 @@ header nav li:hover:after{
 .info .container{
     margin-bottom: 138px;
 }
-.summer_cactus, .styling{
+.info_left, .info_right{
     display: flex;
     align-items: center;
     justify-content: space-around;
     text-align: right;
+    max-width: 500px;
 }
-.summer_cactus h3, .styling h3 {
+.info_left div h3, .info_right div h3 {
     font-family: "abeezeeitalic", sans-serif;
     font-style: italic;
     font-weight: 400;
@@ -397,7 +398,7 @@ header nav li:hover:after{
     padding-left: 30px;
     margin-bottom: 10px;
 }
-.summer_cactus p, .styling p{
+.info_left div p, .info_right div p{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -406,7 +407,7 @@ header nav li:hover:after{
     color: #727272;
     margin-bottom: 30px;
 }
-.info div a{
+.info_left div a, .info_right div a{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 500;
     font-size: 16px;
