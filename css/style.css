@@ -823,7 +823,7 @@ header nav .sub_menu_2{
 .social_media li{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    padding-right: 10px;
 }
 .my_account{
     min-width: 100px ;
