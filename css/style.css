@@ -674,8 +674,10 @@ header nav .sub_menu_2{
     color: #727272;
     margin-bottom: 24px;
 }
+.pre_footer_article form{
+    max-width: 323px;
+}
 .pre_footer_article form h4{
-    padding-top: 37px;
     margin-bottom: 18px;
 }
 .pre_footer_article form p{
@@ -703,7 +705,7 @@ header nav .sub_menu_2{
 }
 .pre_footer_input button{
     font-family: 'cera_proregular', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 89%;
     color: #fff;
@@ -713,7 +715,10 @@ header nav .sub_menu_2{
     width: 85px;
     border: white;
 }
-
+.pre_footer_input button:hover{
+    content:"";
+    font-weight: bold;
+}
 .pre_footer .gradient{
     display: flex;
     justify-content: space-between;
@@ -805,7 +810,6 @@ header nav .sub_menu_2{
     flex-wrap: wrap;
     max-width: 224px;
     max-height: 154px;
-    padding-left: 64px;
 }
 .social_media h4{
     font-family: 'cera_proregular', sans-serif;
@@ -819,22 +823,29 @@ header nav .sub_menu_2{
 .social_media li{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 .my_account{
     min-width: 100px ;
     min-height: 174px ;
-    margin-left: 229px;
     padding-top: 8px;
+    padding-bottom: 29px;
 }
 .Help_Guide{
     min-width: 137px ;
     min-height: 174px;
-    margin-left: 125px;
 }
 .Categories{
     min-width:93px ;
     min-height: 174px;
-    margin-left: 129px;
+}
+footer article li a:hover {
+    content: "";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #46a358;
+    transition: 0.4s;
 }
 .copyright{
     font-family: 'cera_proregular', sans-serif;
