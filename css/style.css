@@ -466,6 +466,7 @@ header nav .sub_menu_2{
 .number_list{
     display: flex;
     justify-content: right;
+    text-align: center;
     gap: 10px;
     margin-bottom: 124px;
 }
@@ -681,7 +682,7 @@ header nav .sub_menu_2{
     margin-bottom: 24px;
 }
 .pre_footer_article form{
-    max-width: 323px;
+    max-width: 380px;
 }
 .pre_footer_article form h4{
     margin-bottom: 18px;
@@ -786,6 +787,8 @@ footer{
     align-items: self-start;
     border-bottom: 1px solid rgba(70, 163, 88, 0.2);
     margin-bottom: 14px;
+    padding-top: 10px;
+    padding-left: 23px;
 }
 .main_container_footer article h4{
     font-family: 'cera_proregular', sans-serif;
@@ -794,7 +797,7 @@ footer{
     line-height: 89%;
     color: #3d3d3d;
     flex-basis: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
 }
 .main_container_footer li a{
     font-family: 'cera_proregular', sans-serif;
@@ -803,7 +806,7 @@ footer{
     line-height: 214%;
     color: #3d3d3d;
     text-decoration: none;
-    margin-bottom: 5px;
+
 }
 .main_container_footer ul{
     font-family: 'cera_proregular', sans-serif;
@@ -835,7 +838,6 @@ footer{
 .my_account{
     min-width: 100px ;
     min-height: 174px ;
-    padding-top: 8px;
     padding-bottom: 29px;
 }
 .Help_Guide{
