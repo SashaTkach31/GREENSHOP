@@ -639,6 +639,22 @@ header nav .sub_menu_2{
     gap: 62px;
     margin-bottom: 24px;
 }
+.pre_footer_article1{
+    min-height: 202px;
+    min-width: 204px;
+}
+.pre_footer_article2 {
+    border-left: 1px solid rgba(70, 163, 88, 0.1);
+    padding-left: 15px;
+    min-height: 202px;
+    min-width: 215px;
+}
+.pre_footer_article3 {
+    border-left: 1px solid rgba(70, 163, 88, 0.1);
+    padding-left: 15px;
+    min-height: 202px;
+    min-width: 215px;
+}
 .pre_footer_article img{
     margin-bottom: 17px;
 }
@@ -749,26 +765,35 @@ header nav .sub_menu_2{
     width: 20px;
     margin-right: 8px;
 }
-footer .container{
+.main_container_footer {
+    min-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
     background: #fbfbfb;
-    border-bottom: rgba(70, 163, 88, 0.2);
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+    margin-bottom: 14px;
 }
-footer .container h4{
+.main_container_footer article h4{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
+    flex-basis: 100%;
+    margin-bottom: 8px;
 }
-footer .container li a{
+.main_container_footer li a{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 214%;
     color: #3d3d3d;
     text-decoration: none;
+    margin-bottom: 5px;
 }
-footer .container ul{
+.main_container_footer ul{
     font-family: 'cera_proregular', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -778,22 +803,45 @@ footer .container ul{
 .social_media{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 173px;
+    max-width: 224px;
+    max-height: 154px;
+    padding-left: 64px;
 }
 .social_media h4{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
     flex-basis: 100%;
+    margin-bottom: 20px;
 }
 .social_media li{
     display: flex;
     flex-direction: row;
 }
-.my_account {
-    padding-top: 15px;
-    padding-left: 229px;
+.my_account{
+    min-width: 100px ;
+    min-height: 174px ;
+    margin-left: 229px;
+    padding-top: 8px;
 }
 .Help_Guide{
-    padding-left: 164px;
+    min-width: 137px ;
+    min-height: 174px;
+    margin-left: 125px;
 }
 .Categories{
-    padding-left: 129px;
+    min-width:93px ;
+    min-height: 174px;
+    margin-left: 129px;
+}
+.copyright{
+    font-family: 'cera_proregular', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #3d3d3d;
+    text-align: center;
+    margin-bottom: 19px;
 }

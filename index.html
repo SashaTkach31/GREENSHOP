@@ -80,7 +80,7 @@
                 </p>
                 <a href="#" class="link_shop_now">SHOP NOW</a>
             </article>
-            <img width="518px" height="470px" src="img/plants.png" alt="plants">
+            <img width="514" height="488" src="img/plants.png" alt="plants">
         </div>
     </section>
 
@@ -139,7 +139,7 @@
                 <div class="main_product_item">
 
                     <article>
-                        <ul class="action_items">
+                      <!--  <ul class="action_items">
                             <li>
                                 <button></button>
                             </li>
@@ -149,7 +149,7 @@
                             <li>
                                 <button></button>
                             </li>
-                        </ul>
+                        </ul>-->
                         <a href="#"><img width="250" height="300" src="img/product_1.jpg" alt="product_1"></a>
                         <h5 class="article_tittle">Barberton Daisy </h5>
                         <p class="article_price">$119.00</p>
@@ -293,25 +293,25 @@
     <section class="pre_footer">
         <div class="container">
             <div class="pre_footer_article">
-                <article>
+                <article class="pre_footer_article1">
                     <img height="96" width="77" src="img/pre_footer_1.jpg" alt="pre_footer_1">
                     <h4>Garden Care</h4>
-                    <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+                    <p>We are an online plant shop<br> offering a wide range of cheap<br> and trendy plants.</p>
                 </article>
-                <article>
+                <article class="pre_footer_article2">
                     <img height="93" width="83" src="img/pre_footer_2.jpg" alt="pre_footer_2" />
                     <h4>Plant Renovation</h4>
-                    <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+                    <p>We are an online plant shop<br> offering a wide range of cheap<br> and trendy plants.</p>
                 </article>
-                <article>
+                <article class="pre_footer_article3">
                     <img height="93" width="90" src="img/pre_footer_3.jpg" alt="pre_footer_3"/>
                     <h4>Watering Graden</h4>
-                    <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+                    <p>We are an online plant shop<br> offering a wide range of cheap<br> and trendy plants.</p>
                 </article>
                 <form action="" method="post" name="newsletters">
                     <h4>Would you like to join newsletters?</h4>
                     <div class="pre_footer_input">
-                        <input type="email" placeholder="enter your email address..." name="email">
+                        <label><input type="email" placeholder="enter your email address..." name="email"></label>
                         <button>Join</button>
                     </div>
                     <p>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours!</p>
@@ -328,38 +328,51 @@
 </main>
 <footer>
     <div class="container">
-        <ul class="my_account"> My Account
-            <li><a href="#"> My Account</a></li>
-            <li><a href="#">Our stores</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Specials</a></li>
-        </ul>
-        <ul class="Help_Guide"> Help & Guide
-            <li><a href="#">Help Center</a></li>
-            <li><a href="#"> to Buy</a></li>
-            <li><a href="#">Shipping & Delivery</a></li>
-            <li><a href="#">Product Policy</a></li>
-            <li><a href="#">How to Return</a></li>
-        </ul>
-        <ul class="Categories"> Categories
-            <li><a href="#">House Plants</a></li>
-            <li><a href="#"> Plants</a></li>
-            <li><a href="#">Seeds</a></li>
-            <li><a href="#">Small Plants</a></li>
-            <li><a href="#">Accessories</a></li>
-        </ul>
-        <div class="social_media">
-            <h4>Social Media</h4>
-            <li><a href="#"><img src="../greenshop/img/Facebook_icons.svg" alt="Facebook"></a></li>
-            <li><a href="#"><img src="../greenshop/img/Instagram.svg" alt="Instagram"></a></li>
-            <li><a href="#"><img src="../greenshop/img/Twitter.svg" alt="Twitter"></a></li>
-            <li><a href="#"><img src="../greenshop/img/Linkidin.svg" alt="Linkidin"></a></li>
+       <div class="main_container_footer">
+           <article class="my_account">
+               <h4>My Account</h4>
+               <ul>
+                   <li><a href="#"> My Account</a></li>
+                   <li><a href="#">Our stores</a></li>
+                   <li><a href="#">Contact us</a></li>
+                   <li><a href="#">Career</a></li>
+                   <li><a href="#">Specials</a></li>
+               </ul>
+           </article>
+           <article class="Help_Guide">
+              <h4>Help & Guide</h4>
+               <ul>
+                   <li><a href="#">Help Center</a></li>
+                   <li><a href="#">How to Buy</a></li>
+                   <li><a href="#">Shipping & Delivery</a></li>
+                   <li><a href="#">Product Policy</a></li>
+                   <li><a href="#">How to Return</a></li>
+               </ul>
+           </article>
+           <article class="Categories">
+               <h4>Categories</h4>
+               <ul>
+                   <li><a href="#">House Plants</a></li>
+                   <li><a href="#"> Plants</a></li>
+                   <li><a href="#">Seeds</a></li>
+                   <li><a href="#">Small Plants</a></li>
+                   <li><a href="#">Accessories</a></li>
+               </ul>
+           </article>
+           <div class="social_media">
+               <h4>Social Media</h4>
+               <li><a href="#"><img src="../greenshop/img/Facebook_icons.svg" alt="Facebook"></a></li>
+               <li><a href="#"><img src="../greenshop/img/Instagram.svg" alt="Instagram"></a></li>
+               <li><a href="#"><img src="../greenshop/img/Twitter.svg" alt="Twitter"></a></li>
+               <li><a href="#"><img src="../greenshop/img/Linkidin.svg" alt="Linkidin"></a></li>
                <li><a href="#"><img src="../greenshop/img/Youtube.svg" alt="Youtube"></a></li>
-            <h4>We accept</h4>
-            <img src="../greenshop/img/pay.svg" alt="pay">
-        </div>
-
+               <h4>We accept</h4>
+               <img src="../greenshop/img/pay.svg" alt="pay">
+           </div>
+       </div>
+    </div>
+    <div class="copyright">
+        <p>© 2021 GreenShop. All Rights Reserved.</p>
     </div>
 </footer>
 </body>
