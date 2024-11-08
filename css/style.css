@@ -173,14 +173,14 @@ header nav ul {
     display: flex;
     gap: 50px;
 }
-header nav li a{
+.header_menu a{
     font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
     text-decoration: none;
 }
-header nav li:after{
+.header_menu:after{
     display: block;
     width: 0;
     content: "";
@@ -234,10 +234,10 @@ header nav .sub_menu li a {
     padding-left: 14px;
     padding-bottom: 8px;
 }
-header nav .dropdown {
+.dropdown {
     position: relative;
 }
-header nav .dropdown:hover .sub_menu{
+.header_menu:hover .sub_menu{
     display: flex;
     max-height: 300px;
 }
@@ -270,7 +270,7 @@ header nav .dropdown_2 a:hover{
     font-weight: 700;
     color: white;
 }
-header nav .dropdown_2:after:hover{
+header nav .dropdown_2:hover:after{
     content:"";
     background-image: url("../img/Frame_priming_white.svg");
 }
@@ -289,7 +289,6 @@ header nav .dropdown_2:hover .sub_menu_2{
 }
 .banner{
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
-
 }
 .article_banner{
     padding-top: 68px;
