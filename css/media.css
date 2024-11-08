@@ -7,9 +7,110 @@
     }
 }
 @media only screen and (max-width: 992px) {
+    .better_planet{
+        font-size: 54px;
+    }
+    .text_banner{
+        font-size: 10px;
+    }
+    .product .container {
+        gap: 30px;
+    }
+    .info_left, .info_right {
+        margin-right: 12px;
+        justify-content: center;
+        gap: 24px;
+    }
+    .blog_posts_element{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 0;
+    }
+    .pre_footer_article{
+        justify-content: space-around;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .main_container_footer{
+        min-width: 992px;
+        justify-content: space-around;
+    }
 
 }
 @media only screen and (max-width: 768px) {
+    .header_menu a {
+        font-size: 11px;
+    }
+    header .login {
+        padding: 4px 9px;
+        font-size: 10px;
+    }
+    .welcome_to_greenshop {
+        font-size: 10px;
+    }
+    .better_planet{
+        font-size: 40px;
+    }
+    .text_banner {
+        font-size: 8px;
+    }
+    main .banner .container img{
+        width: 50%;
+        height: 50%;
+    }
+    .link_shop_now {
+        padding: 5px 10px;
+        font-size: 9px;
+    }
+    .product .left_side {
+        max-width: 225px;
+    }
+    .container .left_side h4 {
+        font-size: 13px;
+    }
+    .container .left_side li a{
+        font-size: 10px;
+    }
+    .product .product_sort ul {
+        gap: 20px;
+    }
+    .product .product_sort ul a {
+        font-size: 12px;
+    }
+    .product .short_by {
+        font-size: 12px;
+    }
+    .main_product_item {
+        justify-content: space-around;
+    }
+    .main_product_item article {
+        max-width: 215px;
+        margin-bottom: 40px;
+    }
+    .article_tittle{
+        font-size: 13px;
+    }
+    .article_price{
+        font-size: 14px;
+    }
+    .product .article_price span{
+        font-size: 13px;
+    }
+    .main_product_item article .sale{
+        padding: 3px 5px;
+    }
+    .container .left_side img {
+        width: 100%;
+    }
+    .number_list li a {
+        width: 25px;
+        height: 25px;
+        font-size: 13px;
+        padding: 5px 10px 16px 11px;
+    }
+    .info .container .info_left img, .info_right{
+        width: 100%;
+    }
 
 }
 @media only screen and (max-width: 540px) {

@@ -309,8 +309,9 @@ header nav .dropdown_2:hover .sub_menu_2{
     margin-bottom: 7px;
 }
 .better_planet{
-    font-family: 'cera_proregular', sans-serif;
-    font-weight: 900;
+    font-family: 'abeezeeitalic', sans-serif;
+    font-style: italic;
+    font-weight: 400;
     font-size: 70px;
     line-height: 100%;
     text-transform: uppercase;
@@ -327,8 +328,9 @@ header nav .dropdown_2:hover .sub_menu_2{
 }
 .link_shop_now{
     font-family: 'cera_proregular', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
+    line-height: 125%;
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
@@ -369,7 +371,7 @@ header nav .dropdown_2:hover .sub_menu_2{
     margin-left: 12px;
 }
 .container .left_side h4{
-    font-family: "ABeeZee", sans-serif;
+    font-family: "cera_proregular", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
@@ -638,7 +640,7 @@ header nav .dropdown_2:hover .sub_menu_2{
     align-items: center;
     justify-content: space-around;
     text-align: right;
-    max-width: 500px;
+    max-width: 586px;
 }
 .info_left div h3, .info_right div h3 {
     font-family: "abeezeeitalic", sans-serif;
