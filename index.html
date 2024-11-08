@@ -12,9 +12,28 @@
     <link rel="stylesheet" href="css/normolize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style_preproc.css">
 </head>
-
 <body>
+<!--preloader - START-->
+<div class="preloader">
+    <svg class="preloader_image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path fill="currentColor"
+              d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z">
+        </path>
+    </svg>
+</div>
+<script>
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }
+</script>
+<!--preloader - END-->
     <header>
         <div class="container">
             <a class="logo" href="#">
@@ -143,19 +162,13 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
-                                </a>
+                                <a class="shopping" href="#"></a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
+                                <a class="favorites" href="#"></a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
-                                </a>
+                                <a class="loupe" href="#"></a>
                             </li>
                         </ul>
                         <a href="#"><img width="250" height="250" src="img/product_1.jpg" alt="product_1"></a>
@@ -165,18 +178,14 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="favorites" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -187,18 +196,14 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="favorites"href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -210,18 +215,14 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="favorites" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -232,18 +233,14 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="favorites" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -254,18 +251,14 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="favorites" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -276,18 +269,15 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping"href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
+                                <a class="favorites" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -298,18 +288,15 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
+                                <a class="favorites" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -320,18 +307,14 @@
                     <article>
                         <ul class="action_items">
                             <li>
-                                <a href="#">
-                                    <img src="img/shopping_black.svg" alt="shopping">
+                                <a class="shopping" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/favorites.svg" alt="favorites">
-                                </a>
+                                <a class="favorites" href="#"></a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <img src="img/loupe.svg" alt="loupe">
+                                <a class="loupe" href="#">
                                 </a>
                             </li>
                         </ul>

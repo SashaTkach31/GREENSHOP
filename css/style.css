@@ -89,6 +89,43 @@ a{
     width: 300px;
     height: 40px;
 }
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background: #edf6ee;
+    z-index: 1001;
+}
+
+.preloader_image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 3s infinite linear;
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
 header{
     padding-top: 30px;
 }
@@ -109,7 +146,7 @@ header .container{
     border-bottom: 1px solid rgba(70, 163, 88, 0.5);
 }
 header .login{
-    font-family: 'cera_proregular', sans-serif;
+    font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -204,32 +241,36 @@ header nav .dropdown:hover .sub_menu{
     display: flex;
     max-height: 300px;
 }
-header nav .sub_menu li.dropdown_2:after{
+header nav .sub_menu .dropdown_2:after{
     content: "";
     display: block;
     background-image: url("../img/Frame_priming.svg");
-    height: 8px;
-    width: 12px;
+    background-size: cover;
+    height: 10px;
+    width: 7px;
     position: absolute;
-    right: 10px;
+    right: 8px;
     margin: 0;
-    top: 19px;
+    top: 24px;
+    color: #fff;
 }
 header nav .sub_menu li:hover {
     background-color: #46A358;
 }
-header nav .dropdown_2{
+header nav .dropdown_2 {
     position: relative;
 }
-header nav .dropdown_2:hover{
+
+header nav .dropdown_2 .sub_menu_2:hover{
     background-color: #46A358;
+    display: block;
 }
 header nav .dropdown_2 a:hover{
     font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 700;
     color: white;
 }
-header nav .dropdown_2:hover :after{
+header nav .dropdown_2:after:hover{
     content:"";
     background-image: url("../img/Frame_priming_white.svg");
 }
@@ -241,11 +282,11 @@ header nav .sub_menu_2{
     gap: 0;
     top: -165px;
     left: 190px;
+    display: none;
 }
-
-
-
-
+header nav .dropdown_2:hover .sub_menu_2{
+    display: block;
+}
 .banner{
     background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 
@@ -464,15 +505,57 @@ header nav .sub_menu_2{
 .action_items{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 26px;
     position: absolute;
-    right: 70px;
-    bottom: 20px;
+    right: 80px;
+    bottom: 45px;
     opacity: 0;
 }
 .main_product_item article:hover .action_items {
     opacity: 100%;
     transition: 0.7s;
+}
+.shopping{
+    background-image: url("../img/shopping_black.svg");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 21px;
+}
+.shopping:hover{
+    background-image: url("../img/shopping.svg");
+    content: "";
+    width: 20px;
+    height: 20px;
+    margin-top: 21px;
+}
+.favorites{
+    background-image: url("../img/favorites.svg");
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    margin-top: 22px;
+}
+.favorites:hover {
+    background-image: url("../img/favorites_green.svg");
+    content: "";
+    width: 20px;
+    height: 18px;
+    margin-top: 22px;
+}
+.loupe{
+    background-image: url("../img/loupe.svg");
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    margin-top: 22px;
+}
+.loupe:hover{
+    background-image: url("../img/loupe_green.svg");
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    margin-top: 22px;
 }
 .article_tittle{
     font-family: 'cera_proregular', sans-serif;;
