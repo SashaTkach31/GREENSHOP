@@ -202,7 +202,7 @@ header nav .sub_menu{
     min-width: 188px;
     flex-direction: column;
     gap: 0;
-    top: 40px;
+    top: 31px;
     display: none;
     padding-top: 20px;
     max-height: 0;
@@ -251,7 +251,7 @@ header nav .sub_menu .dropdown_2:after{
     position: absolute;
     right: 8px;
     margin: 0;
-    top: 19px;
+    top: 17px;
     color: #fff;
 }
 header nav .sub_menu li:hover {
