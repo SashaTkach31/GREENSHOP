@@ -7,8 +7,14 @@
     }
 }
 @media only screen and (max-width: 992px) {
+    header{
+        padding: 10 15px;
+    }
     .better_planet{
         font-size: 54px;
+    }
+    .link_shop_now {
+        font-size: 12px;
     }
     .text_banner{
         font-size: 10px;
@@ -38,12 +44,18 @@
 
 }
 @media only screen and (max-width: 768px) {
+    header .container{
+        padding: 0px 15px;
+    }
     .header_menu a {
         font-size: 11px;
     }
     header .login {
         padding: 4px 9px;
         font-size: 10px;
+    }
+    header .login:before {
+        transform: scale(0.7);
     }
     .welcome_to_greenshop {
         font-size: 10px;
@@ -65,6 +77,9 @@
     .product .left_side {
         max-width: 225px;
     }
+    .product .container {
+        padding-top: 25px;
+    }
     .container .left_side h4 {
         font-size: 13px;
     }
@@ -80,8 +95,8 @@
     .product .short_by {
         font-size: 12px;
     }
-    .main_product_item {
-        justify-content: space-around;
+    .product .short_by:after {
+        transform: scale(0.7);
     }
     .main_product_item article {
         max-width: 215px;
@@ -102,17 +117,258 @@
     .container .left_side img {
         width: 100%;
     }
+    .number_list {
+        margin-bottom: 50px;
+    }
     .number_list li a {
         width: 25px;
         height: 25px;
         font-size: 13px;
         padding: 5px 10px 16px 11px;
     }
-    .info .container .info_left img, .info_right{
-        width: 100%;
+    .number_list li:last-of-type a:before {
+        transform: scale(0.7);
     }
-
+    .info .container {
+        margin-bottom: 60px;
+    }
+    .info .info_right, .info_left{
+        gap: 0;
+    }
+    .info .container .info_left img, .info_right img{
+        width: 68%;
+        height: 100%;
+    }
+    .info_left div h3, .info_right div h3 {
+        font-size: 15px;
+    }
+    .info_left div p, .info_right div p {
+        font-size: 10px;
+    }
+    .info_left div a, .info_right div a {
+        padding: 8px 21px;
+        font-size: 10px;
+    }
+    .info div a:after{
+        transform: scale(0.7);
+    }
+    .blog_posts h2 {
+        font-size: 20px;
+    }
+    .blog_posts p{
+        font-size: 12px;
+    }
+    .blog_posts_element .date {
+        font-size: 11px;
+    }
+    .blog_posts_element h4 {
+        font-size: 15px;
+    }
+    .blog_posts_element a {
+        font-size: 12px;
+        margin-bottom: 60px;
+    }
+    .blog_posts_element a:after {
+        transform: scale(0.7);
+    }
+    .pre_footer_article h4 {
+        font-size: 15px;
+    }
+    .pre_footer_article p {
+        font-size: 12px;
+    }
+    .pre_footer_input button {
+        font-size: 15px;
+    }
+    .pre_footer_input input {
+        padding-bottom: 6px;
+        padding-top: 6px;
+    }
+    .pre_footer .gradient .adress {
+        font-size: 11px;
+    }
+    .pre_footer .gradient p {
+        font-size: 11px;
+    }
+    .main_container_footer {
+       min-width: 768px;
+    }
+    .main_container_footer article h4 {
+        font-size: 15px;
+    }
+    .main_container_footer li a {
+        font-size: 12px;
+    }
+    .social_media h4 {
+        font-size: 15px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width: 540px) {
+    header nav ul {
+        gap: 20px;
+    }
+
+    .header_menu a {
+        font-size: 9px;
+    }
+
+    header .logo img {
+        width: 80%;
+    }
+
+    .article_banner {
+        padding-top: 29px;
+        padding-left: 14px;
+    }
+
+    .better_planet {
+        font-size: 28px;
+    }
+
+    .text_banner {
+        font-size: 8px;
+        margin-bottom: 20px;
+    }
+
+    .text_banner br {
+        display: none;
+    }
+
+    .link_shop_now {
+        margin-bottom: 60px;
+        font-size: 7px;
+    }
+
+    .container .left_side h4 {
+        font-size: 11px;
+    }
+
+    .container .left_side li a {
+        font-size: 9px;
+    }
+
+    .product .product_sort ul a {
+        font-size: 9px;
+    }
+
+    .product .product_sort ul {
+        gap: 14px;
+    }
+
+    .product .short_by {
+        font-size: 9px;
+    }
+
+    .product .product_sort {
+        align-items: baseline;
+    }
+
+    .main_product_item img {
+        width: 100%;
+        height: 75%;
+        padding: 0 0;
+    }
+
+    .main_product_item {
+        justify-content: center;
+    }
+
+    .main_product_item article {
+        max-width: 215px;
+        margin-bottom: 20px;
+    }
+
+    .article_tittle {
+        font-size: 11px;
+    }
+    .number_list {
+        margin-bottom: 40px;
+    }
+    .number_list li a {
+        width: 25px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .number_list li:last-of-type a:before {
+        transform: scale(0.5);
+    }
+    .info_left div h3, .info_right div h3 {
+        font-size: 11px;
+    }
+    .info_left div p, .info_right div p {
+        font-size: 9px;
+    }
+    .info_left div a, .info_right div a {
+        padding: 3px 10px;
+        font-size: 8px;
+    }
+    .info div a:after {
+        transform: scale(0.5);
+        margin-left: 0;
+    }
+    .blog_posts h2 {
+        font-size: 15px;
+    }
+    .blog_posts p {
+        font-size: 10px;
+    }
+    .blog_posts_element h4 {
+        font-size: 14px;
+    }
+    .blog_posts_element a {
+        font-size: 11px;
+        margin-bottom: 40px;
+    }
+    .pre_footer_article1, .pre_footer_article2,.pre_footer_article3{
+        display: grid;
+        justify-content: center;
+        border-left: none;
+    }
+    .pre_footer_article h4 {
+        font-size: 14px;
+    }
+    .pre_footer_article p {
+        font-size: 10px;
+        text-align: left;
+    }
+    .pre_footer .gradient a, p{
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    .pre_footer .gradient a{
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .pre_footer .gradient .adress, .pre_footer .gradient .email, .pre_footer .gradient .phone{
+        flex: 1 1 auto;
+        width: auto;
+    }
+    .pre_footer .gradient .adress{
+        font-size: 9px;
+    }
+    .pre_footer .gradient .email{
+        font-size: 9px;
+    }
+    .pre_footer .gradient .phone{
+        font-size: 9px;
+    }
+    .main_container_footer {
+        min-width: 540px;
+    }
+    .main_container_footer article h4 {
+        font-size: 12px;
+    }
+    .main_container_footer li a {
+        font-size: 9px;
+    }
+    .Help_Guide {
+        min-width: 120px;
+    }
+    .social_media h4 {
+        font-size: 12px;
+    }
 
 }

@@ -672,6 +672,7 @@ header nav .dropdown_2:hover .sub_menu_2{
     background: #46a358;
     padding: 13px 27px;
     align-items: center;
+    display: flex;
 }
 .info_left div a:hover{
     font-weight: bold;
