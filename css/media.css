@@ -249,13 +249,17 @@
     .container .left_side li a {
         font-size: 9px;
     }
+    .container .left_side li a:hover {
+        font-size: 11px;
+    }
 
     .product .product_sort ul a {
         font-size: 9px;
     }
 
     .product .product_sort ul {
-        gap: 14px;
+        gap: 35px;
+        padding-right: 32px;
     }
 
     .product .short_by {
@@ -274,6 +278,9 @@
 
     .main_product_item {
         justify-content: center;
+    }
+    .main_product_item article .sale {
+        font-size: 8px;
     }
 
     .main_product_item article {
@@ -370,5 +377,16 @@
     .social_media h4 {
         font-size: 12px;
     }
+    .social_media li {
+        padding-right: 4px;
+    }
+    .social_media img{
+        width: 90%;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 440px) {
 
 }
