@@ -52,39 +52,32 @@
     }
     header .login {
         padding: 4px 9px;
-        font-size: 10px;
+        font-size: 12px;
     }
     header .login:before {
         transform: scale(0.7);
     }
     .welcome_to_greenshop {
-        font-size: 10px;
+        font-size: 12px;
     }
     .better_planet{
-        font-size: 40px;
+        font-size: 44px;
     }
     .text_banner {
-        font-size: 8px;
-    }
-    main .banner .container img{
-        width: 50%;
-        height: 50%;
+        font-size: 9px;
     }
     .link_shop_now {
         padding: 5px 10px;
-        font-size: 9px;
-    }
-    .product .left_side {
-        max-width: 225px;
+        font-size: 12px;
     }
     .product .container {
         padding-top: 25px;
     }
     .container .left_side h4 {
-        font-size: 13px;
+        font-size: 15px;
     }
     .container .left_side li a{
-        font-size: 10px;
+        font-size: 12px;
     }
     .product .product_sort ul {
         gap: 20px;
@@ -206,7 +199,7 @@
         font-size: 12px;
     }
 }
-@media only screen and (max-width: 540px) {
+/*@media only screen and (max-width: 540px) {
     header nav ul {
         gap: 20px;
     }
@@ -385,8 +378,59 @@
     }
     .copyright {
         font-size: 10px;
-    }
-}
-@media only screen and (max-width: 440px) {
+    }*/
 
-}
+@media only screen and (max-width: 428px) {
+    header .login {
+        margin-right: 15px;
+    }
+
+    header nav ul {
+        display: none;
+    }
+
+    .article_banner {
+        flex-direction: column;
+        width: 428px;
+        padding-top: 38px;
+        padding-left: 23px;
+        margin-bottom: -110px;
+    }
+
+    .banner .container {
+        display: block;
+    }
+
+    .banner .container img {
+        width: 109%;
+    }
+
+    .product .container {
+        display: block;
+    }
+
+    .product .left_side {
+        margin-bottom: 15px;
+    }
+
+    .main_product_item {
+        justify-content: center;
+    }
+    .info .container{
+        display: block;
+    }
+    .pre_footer .gradient {
+        display: block;
+        padding: 15px 2px 14px 15px;
+    }
+    .pre_footer .gradient .adress {
+        display: block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .pre_footer .gradient .phone {
+        display: block;
+        margin-top: 10px;
+    }
+
+    }
