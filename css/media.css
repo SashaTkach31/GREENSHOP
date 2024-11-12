@@ -65,6 +65,9 @@
     header .login:before {
         transform: scale(0.7);
     }
+    header nav ul {
+        padding: 5px 15px;;
+    }
     .welcome_to_greenshop {
         font-size: 12px;
     }
@@ -125,6 +128,7 @@
     }
     .container .left_side img {
         width: 100%;
+        margin-top: 20px;
     }
     .container .main_product_item img{
         width: 100%;
@@ -232,7 +236,9 @@
     header .login {
         margin-right: 15px;
     }
-
+    header nav ul {
+        display: none;
+    }
     header nav ul {
         gap: 40px;
         margin-right: 10px;
@@ -267,12 +273,13 @@
     }
     .product .left_side {
         margin-bottom: 15px;
+        max-width: none;
     }
     .product .product_sort {
        gap: 50px;
     }
     .main_product_item{
-        justify-content: space-between;
+        justify-content: center;
     }
     .info .container {
         display: block;
@@ -304,11 +311,6 @@
     .main_container_footer {
         flex-wrap: wrap;
         gap: 22px;
-    }
-}
-@media only screen and (max-width: 440px){
-    header nav ul {
-        display: none;
     }
 }
 @media only screen and (max-width: 428px) {
