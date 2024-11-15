@@ -9,11 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/normolize.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style_preproc.css">
     <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <!--preloader - START-->
@@ -24,15 +27,6 @@
         </path>
     </svg>
 </div>
-<script>
-    window.onload = function () {
-        document.body.classList.add('loaded_hiding');
-        window.setTimeout(function () {
-            document.body.classList.add('loaded');
-            document.body.classList.remove('loaded_hiding');
-        }, 500);
-    }
-</script>
 <!--preloader - END-->
     <header>
         <div class="container">
@@ -92,24 +86,67 @@
     </header>
 
 <main>
-    <section class="banner">
-        <div class="container">
-            <article class="article_banner">
-                <h4 class="welcome_to_greenshop">
-                    Welcome to GreenShop
-                </h4>
-                <h1 class="better_planet">
-                    Let’s Make a<br>Better <span>Planet</span>
-                </h1>
-                <p class="text_banner">
-                    We are an online plant shop offering a wide range of cheap and trendy plants. Use<br> our plants to create an unique Urban Jungle. Order your favorite plants!
-                </p>
-                <a href="#" class="link_shop_now">SHOP NOW</a>
-            </article>
-            <img width="514" height="488" src="img/plants.png" alt="plants" loading="lazy">
+    <!-- Set up your HTML -->
+    <div class="owl-carousel">
+        <div>
+            <section class="banner">
+                <div class="container">
+                    <article class="article_banner">
+                        <h4 class="welcome_to_greenshop">
+                        Welcome to GreenShop
+                        </h4>
+                        <h1 class="better_planet">
+                        Let’s Make a<br>Better <span>Planet</span>
+                        </h1>
+                        <p class="text_banner">
+                        We are an online plant shop offering a wide range of cheap and trendy plants. Use<br> our plants to create an unique Urban Jungle. Order your favorite plants!
+                        </p>
+                        <a href="#" class="link_shop_now">SHOP NOW
+                        </a>
+                    </article>
+                    <img width="514" height="488" src="img/plants.png" alt="plants" loading="lazy">
+                </div>
+            </section>
         </div>
-    </section>
-
+        <div>
+            <section class="banner">
+                <div class="container">
+                    <article class="article_banner">
+                        <h4 class="welcome_to_greenshop">
+                            Welcome to GreenShop
+                        </h4>
+                        <h1 class="better_planet">
+                            Let’s Make a<br>Better <span>Planet</span>
+                        </h1>
+                        <p class="text_banner">
+                            We are an online plant shop offering a wide range of cheap and trendy plants. Use<br> our plants to create an unique Urban Jungle. Order your favorite plants!
+                        </p>
+                        <a href="#" class="link_shop_now">SHOP NOW</a>
+                    </article>
+                    <img width="514" height="488" src="img/plants.png" alt="plants" loading="lazy">
+                 </div>
+            </section>
+        </div>
+        <div>
+            <section class="banner">
+                <div class="container">
+                    <article class="article_banner">
+                        <h4 class="welcome_to_greenshop">
+                            Welcome to GreenShop
+                        </h4>
+                        <h1 class="better_planet">
+                            Let’s Make a<br>Better <span>Planet</span>
+                        </h1>
+                        <p class="text_banner">
+                            We are an online plant shop offering a wide range of cheap and trendy plants. Use<br> our plants to create an unique Urban Jungle. Order your favorite plants!
+                        </p>
+                        <a href="#" class="link_shop_now">SHOP NOW</a>
+                    </article>
+                    <img width="514" height="488" src="img/plants.png" alt="plants" loading="lazy">
+                </div>
+            </section>
+        </div>
+    </div>
     <section class="product">
         <div class="container">
             <div class="left_side">
@@ -508,5 +545,23 @@
         <p>© 2021 GreenShop. All Rights Reserved.</p>
     </div>
 </footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
+
+
+
+<script>
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }
+</script>
 </body>
 </html>
