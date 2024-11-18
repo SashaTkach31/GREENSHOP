@@ -1,389 +1,279 @@
 @media only screen and (max-width: 1200px) {
     header{
-        padding: 10px 15px
+
     }
     .container{
-        padding: 0 15px;
+
     }
 }
 @media only screen and (max-width: 992px) {
     header{
-        padding: 10px 15px;
+
     }
     .better_planet{
-        font-size: 54px;
+
     }
-    .link_shop_now {
-        font-size: 12px;
-    }
-    .text_banner{
-        font-size: 10px;
-    }
+
     .product .container {
-        gap: 30px;
+
     }
     .info_left, .info_right {
-        margin-right: 12px;
-        justify-content: center;
-        gap: 24px;
+
     }
     .blog_posts_element{
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 0;
+
     }
     .pre_footer_article{
-        justify-content: space-around;
-        gap: 15px;
-        flex-wrap: wrap;
-        width: 100%;
+
     }
     .pre_footer_article form {
-        max-width: 100%;
+
     }
     .pre_footer .gradient {
-        max-width: 100%;
+
     }
     .main_container_footer{
-        min-width: auto;
-        gap: 30px;
-        flex-wrap: wrap;
+
     }
 
 }
 @media only screen and (max-width: 768px) {
     header .container{
-        padding: 0 15px;
+
     }
     .header_menu a {
-        font-size: 11px;
+
     }
     header .login {
-        padding: 4px 9px;
-        font-size: 12px;
+        p
     }
-    header .login:before {
-        transform: scale(0.7);
-    }
+
     header nav ul {
-        padding: 5px 15px;;
+
     }
     .welcome_to_greenshop {
-        font-size: 12px;
+
     }
     .better_planet{
-        font-size: 44px;
+
     }
-    .text_banner {
-        font-size: 12px;
-    }
+
     .link_shop_now {
-        padding: 5px 10px;
-        font-size: 14px;
-        margin-bottom: 50px;
+
     }
-    .banner .container{
-        flex-wrap: wrap;
-    }
+
     .container img{
-        width: auto;
-        height: auto;
+
     }
     .product .container {
-        padding-top: 25px;
+
     }
-    .container .left_side h4 {
-        font-size: 15px;
-    }
-    .container .left_side li a{
-        font-size: 12px;
-    }
+
+
     .product .product_sort ul {
-        gap: 20px;
+
     }
     .product .product_sort ul a {
-        font-size: 12px;
+
     }
     .product .short_by {
-        font-size: 12px;
+
     }
     .product .short_by:after {
         transform: scale(0.7);
     }
     .main_product_item article {
-        max-width: 215px;
-        margin-bottom: 40px;
+
     }
     .article_tittle{
-        font-size: 13px;
+
     }
-    .article_price{
-        font-size: 14px;
-    }
-    .product .article_price span{
-        font-size: 13px;
-    }
+
+
     .main_product_item article .sale{
-        padding: 3px 5px;
+
     }
     .container .left_side img {
-        width: 100%;
-        margin-top: 20px;
+
     }
     .container .main_product_item img{
-        width: 100%;
-        height: 100%;
+
     }
     .number_list {
-        margin-bottom: 50px;
+
     }
     .number_list li a {
-        width: 25px;
-        height: 25px;
-        font-size: 13px;
-        padding: 5px 10px 16px 11px;
+
     }
     .number_list li:last-of-type a:before {
         transform: scale(0.7);
     }
     .info .container {
-        margin-bottom: 60px;
-        flex-wrap: wrap;
+
     }
     .info .info_right, .info_left{
-        gap: 0;
-        width: 100%;
+
     }
     .info .container .info_left img, .info_right img{
-        width: 68%;
-        height: 100%;
+
     }
     .info_left div h3, .info_right div h3 {
-        font-size: 15px;
+
     }
     .info_left div p, .info_right div p {
-        font-size: 10px;
+
     }
     .info_left div a, .info_right div a {
-        padding: 8px 21px;
-        font-size: 10px;
-        margin-left: auto;
-        width: 114px;
+
     }
     .number_list {
-        display: flex;
-        justify-content: center;
+
     }
     .info div a:after{
         transform: scale(0.7);
     }
     .blog_posts h2 {
-        font-size: 20px;
+
     }
     .blog_posts p{
-        font-size: 12px;
+
     }
     .blog_posts_element .date {
-        font-size: 11px;
+
     }
     .blog_posts_element h4 {
-        font-size: 15px;
+
     }
     .blog_posts_element a {
-        font-size: 12px;
-        margin-bottom: 60px;
+
+
     }
     .blog_posts_element a:after {
         transform: scale(0.7);
     }
     .pre_footer_article h4 {
-        font-size: 15px;
+
     }
     .pre_footer_article p {
-        font-size: 12px;
+
     }
     .pre_footer_input button {
-        font-size: 15px;
+
     }
     .pre_footer_input input {
-        padding-bottom: 6px;
-        padding-top: 6px;
+
     }
-    .pre_footer .gradient .adress {
-        font-size: 11px;
-    }
-    .pre_footer .gradient p {
-        font-size: 11px;
-    }
+
     .main_container_footer {
-        min-width: auto;
-        gap: 30px;
+
     }
-    .main_container_footer article h4 {
-        font-size: 15px;
-    }
-    .main_container_footer li a {
-        font-size: 12px;
-    }
-    .social_media h4 {
-        font-size: 15px;
-    }
-    .copyright {
-        font-size: 12px;
-    }
+
+
 }
 @media only screen and (max-width: 540px) {
     header .login {
-        margin-right: 15px;
+
     }
     header nav ul {
-        display: none;
+
     }
     header nav ul {
-        gap: 40px;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-top: 10px;
+
     }
 
     .article_banner {
-        flex-direction: column;
-        width: 100%;
-        padding-top: 38px;
-        padding-left: 23px;
-        margin-bottom: -110px;
+
     }
 
     .banner .container {
-        display: block;
+
 
     }
     .text_banner {
-        font-size: 12px;
+
     }
     .text_banner br{
-        display: none;
+
     }
     .banner .container img {
-        width: 100%;
-        height: 100%;
-    }
+
     .product .container {
-        display: block;
+
     }
     .product .left_side {
-        margin-bottom: 15px;
-        max-width: none;
+
     }
     .product .product_sort {
-       gap: 50px;
+
     }
     .main_product_item{
-        justify-content: center;
+
     }
     .info .container {
-        display: block;
+
     }
     .info_left div a, .info_right div a {
-        width: 114px;
-        margin-left: auto;
+
     }
     .pre_footer_article2, .pre_footer_article3 {
-        border-left: none;
+
     }
     .pre_footer .gradient {
-        display: block;
-        padding: 15px 2px 14px 15px;
+
     }
     .pre_footer .gradient .adress {
-        display: block;
-        margin-bottom: 15px;
-        margin-top: 15px;
+
     }
     .pre_footer .gradient .phone {
-        display: block;
-        margin-top: 10px;
+
     }
     .pre_footer .gradient .phone:before {
-        padding-bottom: 5px;
-        padding-right: 20px;
+
     }
     .main_container_footer {
-        flex-wrap: wrap;
-        gap: 22px;
+
     }
 }
 @media only screen and (max-width: 428px) {
     header .login {
-        margin-right: 10px;
+
     }
     .link_shop_now{
-        font-size: 12px;
+
     }
     .article_banner {
-        flex-direction: column;
-        padding-top: 38px;
-        padding-left: 23px;
-        margin-bottom: -110px;
-    }
-    .banner .container {
-        display: block;
-    }
-    .banner .container img {
-        width: 109%;
-        height: 100%;
-    }
-    .product .container {
-        display: block;
-    }
-    .product .left_side {
-        margin-bottom: 15px;
-    }
-    .main_product_item {
-        justify-content: center;
+
     }
     .action_items {
-        right: 35px;
+
     }
-    .info .container {
-        display: block;
-        width: 100%;
-    }
-    .number_list li a:hover {
-        font-size: 14px;
-    }
-    .pre_footer .gradient .adress {
-        display: block;
-        margin-bottom: 15px;
-        margin-top: 15px;
+
+
+
     }
     .pre_footer .gradient .phone {
-        display: block;
-        margin-top: 10px;
+
     }
-    .pre_footer .gradient .phone:before {
-        padding-bottom: 5px;
-        padding-right: 20px;
     }
     .main_container_footer {
-        display: block;
+
     }
 }
 @media  only screen and (max-width: 320px) {
 ;
     header {
-        padding: 7px 0;
+
     }
     header .login {
-        margin-right: -15px;
+
     }
     .product .product_sort ul {
-        gap: 8px;
+
     }
     .product .product_sort {
-        gap: 43px;
+
     }
     .info .info_right, .info_left{
-        margin-bottom: 21px;
+
     }
 }
