@@ -37,6 +37,7 @@ nav {
 
   .dropdown {
     position: relative;
+    z-index: 5;
 
     .sub_menu {
       position: absolute;

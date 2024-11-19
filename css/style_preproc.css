@@ -130,7 +130,8 @@ nav ul {
     content: "";
     font-weight: bolder; }
 nav .dropdown {
-  position: relative; }
+  position: relative;
+  z-index: 5; }
   nav .dropdown .sub_menu {
     position: absolute;
     min-width: 188px;
@@ -407,7 +408,10 @@ header {
     transform: scale(1); } }
 .owl-dots {
   display: flex;
-  align-items: center; }
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 5px; }
   .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
