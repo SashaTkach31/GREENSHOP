@@ -11,7 +11,7 @@ $('.owl-carousel').owlCarousel({
             items: 1
         }
     }
-}
+})
 
     $( function() {
         $( "#accordion" ).accordion();
